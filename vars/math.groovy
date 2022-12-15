@@ -8,5 +8,5 @@ def mul(a,b,c)
 }
 def avg(a,b,c)
 {
-   echo "the average of ${a} and ${b} and ${c} is ${a+b+c/3}"
+   echo "the average of ${a} and ${b} and ${c} is ${(a+b+c)/3}"
 }
