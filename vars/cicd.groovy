@@ -6,3 +6,4 @@ def build()
 {
    sh 'mvn package'
 }
+def deploy()
