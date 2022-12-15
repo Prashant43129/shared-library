@@ -4,9 +4,5 @@ def sum(a,b)
 }
 def mul(a,b,c)
 {
-   echo " the product of ${a} and ${b} and ${c} is ${a*b*c}"
-}
-def average(a,b,c)
-{
-   echo "the average of ${a} and ${b} and ${c} is ${a+b+c/3}
+   echo "the product of ${a} and ${b} and ${c} is ${a*b*c}"
 }
