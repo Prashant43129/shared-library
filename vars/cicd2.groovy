@@ -12,7 +12,7 @@ def deploy(job,ip,appname)
 }
 def testing(file)
 {
-   sh 'java -jar /var/lib/jenkins/workspace/${file}/testing.jar'
+   sh "java -jar /var/lib/jenkins/workspace/${file}/testing.jar"
 }
 def delivery(job,ip,appname)
 {
