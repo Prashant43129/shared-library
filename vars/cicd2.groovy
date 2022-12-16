@@ -12,7 +12,7 @@ def deploy(job,ip,appname)
 }
 def testing(file)
 {
-   git "https://github.com/intelliqittrainings/${file}"
+   sh 'java -jar /var/lib/jenkins/workspace/${file}/testing.jar'
 }
 def delivery(job,ip,appname)
 {
